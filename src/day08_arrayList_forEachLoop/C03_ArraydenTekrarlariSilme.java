@@ -10,7 +10,7 @@ public class C03_ArraydenTekrarlariSilme {
         // verilen bir array'den tekrar eden elementleri silip
         // array'i unique elementlerden olusan bir hale donusturun
 
-        int[] arr = {2,5,7,89,0,65,3,2,5,7,9,0,5,43,2,6,8,0,6,4,3,2};
+        int[] arr = {42,2,5,7,89,0,65,3,2,5,7,9,0,5,43,2,6,8,0,6,4,3,2};
 
         // array'de uzunlugu degistirmek cok zor oldugu icin
         // islemi bir list uzerinde yapip
