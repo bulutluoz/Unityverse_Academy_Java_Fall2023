@@ -20,9 +20,17 @@ public class C02_StringBuilder {
 
         sb1.insert(0,str,0,5); // Tava Bence Java Candir
 
+        sb1.replace(0,5,""); // Bence Java Candir
+
+        sb1.delete(0,6); // Java Candir
+
+        // son karakteri silelim
+        sb1.deleteCharAt(sb1.length()-1); // Java Candi
 
 
+        sb1.reverse(); // idnaC avaJ
 
+        sb1.reverse(); // Java Candi
 
         System.out.println(sb1);
     }
