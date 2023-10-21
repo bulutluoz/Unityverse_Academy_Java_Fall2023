@@ -22,6 +22,13 @@ public class J_Child extends I_Parent{
         str = "Son";
     }
 
+    J_Child(boolean bl){
+        // super(true);
+        // eger parent class'da olmayan bir
+        // constructor cagrilirsa
+        // CTE olusur
+    }
+
     public static void main(String[] args) {
 
         J_Child child3 = new J_Child("Ali");

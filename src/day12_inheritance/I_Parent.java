@@ -21,4 +21,11 @@ public class I_Parent extends H_GParent{
         strParent = "Yeni parent";
         System.out.println("parent String parametreli constructor");
     }
+    I_Parent(char chr){
+        // super();
+        // constructor parametreli olsa da
+        // java'nin default olarak koydugu
+        // constructor call parametresizdir
+
+    }
 }
