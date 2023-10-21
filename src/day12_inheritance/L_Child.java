@@ -2,6 +2,15 @@ package day12_inheritance;
 
 public class L_Child extends K_ClassUyeleriniKullanma{
 
+    L_Child(){
+        this(5);
+
+    }
+
+    L_Child(int sayi){
+
+    }
+
     String str  = "Hava";
     int sayi = 20;
     boolean bl = true;
