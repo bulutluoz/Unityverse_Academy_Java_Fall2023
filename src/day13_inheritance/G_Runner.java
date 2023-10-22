@@ -56,5 +56,48 @@ public class G_Runner {
         // kartal6.gaga(); // CTE
         // kartal6.pence(); // CTE
 
+
+        E_Kuslar kus1 = new E_Kuslar();
+        kus1.omur(); // D Yasar ve olurler
+        kus1.solunum(); // E Akcigerle nefes alirlar
+        kus1.cogalma(); // E Yumurtayla cogalirlar
+        kus1.kanat(); // E Kanatlidirlar
+        kus1.hareket(); // D hareket ederler
+        kus1.beslenme(); // D beslenirler
+        kus1.gaga(); // E gagalidir
+        // kus1.pence(); // CTE
+
+        D_Hayvanlar kus2 = new E_Kuslar();
+        kus2.omur(); // D Yasar ve olurler
+        kus2.solunum(); // E Akcigerle nefes alirlar
+        kus2.cogalma(); // E Yumurtayla cogalirlar
+        // kus2.kanat(); // CTE
+        kus2.hareket(); // D hareket ederler
+        kus2.beslenme(); // D beslenirler
+        //kus2.gaga(); // CTE
+        //kus2.pence(); // CTE
+
+        D_Hayvanlar hayvan1 = new D_Hayvanlar();
+        hayvan1.omur(); // D Yasar ve olurler
+        hayvan1.solunum(); // D nefes alirlar
+        hayvan1.cogalma(); // D cogalirlar
+        // hayvan1.kanat(); // CTE
+        hayvan1.hareket(); // D hareket ederler
+        hayvan1.beslenme(); // D beslenirler
+        //hayvan1.gaga(); // CTE
+        //hayvan1.pence(); // CTE
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
