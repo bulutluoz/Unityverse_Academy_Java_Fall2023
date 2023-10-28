@@ -36,6 +36,7 @@ public class G_Runner {
         kartal4.gaga(); // F Sivri gagalidir
         kartal4.pence(); // F Pencelidir
 
+
         E_Kuslar kartal5 = new F_AvciKuslar();
         kartal5.omur(); // D Yasar ve olurler
         kartal5.solunum(); // E Akcigerle nefes alirlar

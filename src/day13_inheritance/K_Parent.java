@@ -31,5 +31,8 @@ class Child extends K_Parent{
         child2.method2();
         //Parent method2
         //child class method2
+
+
+
     }
 }
