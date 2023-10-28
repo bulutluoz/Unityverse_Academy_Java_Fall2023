@@ -1,6 +1,8 @@
 package day14_abstractClasses_interfaces;
 
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class C09_ChildOfInterface1ve2 extends C01_KlasikParent implements I02_Interface1,I03_Interface2{
 
@@ -15,6 +17,8 @@ public class C09_ChildOfInterface1ve2 extends C01_KlasikParent implements I02_In
         return 0;
     }
 
+
+
     public static void main(String[] args) {
 
         System.out.println(SAYI); // 20
@@ -25,5 +29,9 @@ public class C09_ChildOfInterface1ve2 extends C01_KlasikParent implements I02_In
         // bu durumda hangisini kullanmasini istedigimizi belirtmemiz lazim
         System.out.println(I02_Interface1.ISIM); // ALI
         System.out.println(I03_Interface2.ISIM); // VELI
+
+
+
+
     }
 }
