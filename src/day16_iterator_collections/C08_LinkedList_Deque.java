@@ -7,6 +7,18 @@ public class C08_LinkedList_Deque {
 
     public static void main(String[] args) {
 
+
+        /*
+            Deque iki tarafli queue demektir,
+            bu ozelliginden dolayi pekcok method icin first ve last secenekleri verir
+
+            birbirine benzer method'lar arasinda
+            exception firlatma veya null dondurme
+            kapasite sinirlamasi altinda calisma veya kapasiteye bakmaksizin calisma
+            elemani silip dondurme veya silmeden dondurme gibi
+            nuanslar vardir.
+         */
+
         Deque<Integer> sayilar = new LinkedList<>();
 
         sayilar.add(34);
@@ -53,6 +65,8 @@ public class C08_LinkedList_Deque {
         // System.out.println(sayilar.removeFirstOccurrence(silinecekElement)); // true
         System.out.println(sayilar.removeLastOccurrence(silinecekElement)); // true
         System.out.println(sayilar); // [34, 12, 25, 44]
+
+
 
     }
 }
