@@ -20,8 +20,8 @@ public class Runner {
         ogrenciMap.put(109,"Ayse-Han-10-K-MF");
 
         // 10/H sinifindaki ogrenci listesini yazdirin
-        C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"10","h");
-        C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"11","M");
+        C02_SinifSubeListesiYazdirma.sinifSubeListesiYazdirma(ogrenciMap,"10","h");
+        C02_SinifSubeListesiYazdirma.sinifSubeListesiYazdirma(ogrenciMap,"11","M");
 
         // TM bolumundeki ogrencilerin listesini yazdirin
         C03_BransListesiOlusturma.bolumOgrenciListesiYazdir(ogrenciMap, "TM");
@@ -41,6 +41,11 @@ public class Runner {
         System.out.println("======Tum Ogrenci listesi Soyisim degistirdikten sonra====");
         C05_NumaraliOgrenciListesi.numaraliOgrenciListesiYazdirma(ogrenciMap);
 
+
+        // 11.sinif ogrencileri yazdiralim
+
+        System.out.println("==== 11.sinif listesi=====");
+        C08_SinifListesiYazdirma.sinifListesiYazdirma(ogrenciMap,"11");
 
     }
 }
