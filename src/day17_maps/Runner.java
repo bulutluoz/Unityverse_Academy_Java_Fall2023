@@ -34,6 +34,13 @@ public class Runner {
         C05_NumaraliOgrenciListesi.numaraliOgrenciListesiYazdirma(ogrenciMap);
 
 
+        // 104 numarali ogrencinin soyismini Yilmaz, 105 numarali ogrencinin soyismini Celik yapip
+        // tum ogrenci listesini yazdirin
+        ogrenciMap = C06_NumaraIleSoyisimUpdate.numaraIleSoyisimUpdate(ogrenciMap,104,"Yilmaz");
+        ogrenciMap = C06_NumaraIleSoyisimUpdate.numaraIleSoyisimUpdate(ogrenciMap,105,"Celik");
+        System.out.println("======Tum Ogrenci listesi Soyisim degistirdikten sonra====");
+        C05_NumaraliOgrenciListesi.numaraliOgrenciListesiYazdirma(ogrenciMap);
+
 
     }
 }
