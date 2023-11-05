@@ -22,5 +22,18 @@ public class Runner {
         // 10/H sinifindaki ogrenci listesini yazdirin
         C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"10","h");
         C02_SinifListesiOlusturma.sinifSubeListesiYazdirma(ogrenciMap,"11","M");
+
+        // TM bolumundeki ogrencilerin listesini yazdirin
+        C03_BransListesiOlusturma.bolumOgrenciListesiYazdir(ogrenciMap, "TM");
+
+        // soyadi cem olan ogrenci listesini yazdirin
+        C04_SoyisimdenOgrenciBulma.soyisimOgrenciListesi(ogrenciMap,"CEM");
+
+        // tum ogrencilerin numara, isim ve soyisimlerini yazdirin
+        System.out.println("======Tum Ogrenci listesi====");
+        C05_NumaraliOgrenciListesi.numaraliOgrenciListesiYazdirma(ogrenciMap);
+
+
+
     }
 }
